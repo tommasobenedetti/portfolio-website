@@ -1,6 +1,6 @@
 :root {
   --primary-color: #ff1a66;
-  --backgroung-color: #f7f7f6;
+  --background-color: #f7f7f6;
   --visited-color: #ff80aa;
   --active-color: #ff3377;
   --button-color: #ff6699;
@@ -16,7 +16,7 @@
 
  body {
    background-color: var(--background-color);
-   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'IBM Plex Sans',sans-serif;
    font-weight: var(--reg-font-weight);
    font-size: var(--reg-font-size);
   line-height: 1.6;
