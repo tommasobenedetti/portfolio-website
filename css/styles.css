@@ -249,7 +249,7 @@ button:focus,
 }
 
 @keyframes cloud-move-reverse {
-  from{
+  from  {
     transform: translate(446px, 48px);
   }
   to{
