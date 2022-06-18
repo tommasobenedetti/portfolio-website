@@ -1,94 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tommaso Benedetti - Projects</title>
-    <link rel="icon" href="img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <title>Tommaso Benedetti - Portfolio</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
 </head>
-<body>
-  <header class="page-header">
-    <img src="img/logo.svg" width="200" height="70" alt="logo" class="page-header__item">
-    <nav class="main-navigation page-header__item">
-  <ul role="menubar" class="navigation-list">
-    <li role="presentation">
-      <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
-    </li>
-    <li role="presentation">
-      <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-    </li>
-    <li role="presentation">
-      <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-    </li>
-    <li role="presentation">
-      <a href="work.html" role="menuitem" class="navigation-list__item">Projects</a>
-    </li>
-  </ul>
-</nav>
-  </header>
-  <main>
-<section>
-   <h1>Work</h1>
-   <div class="project-list">
-     <div class="grid__item">
-       <h2>Mobile web app</h2>
-       <p>
-       </p>
-       <a href="#">See project on GitHub</a>
-     </div>
-     <div class="grid__item">
-       <h2>Web app</h2>
-       <p>
-       </p>
-       <a href="#">See project on GitHub</a>
-     </div>
-     <div class="grid__item">
-       <h2>Mobile web app</h2>
-       <p>
-       </p>
-       <a href="#">See project on GitHub</a>
-     </div>
-     <div class="grid__item">
-       <h2>Web app</h2>
-       <p>
-       </p>
-       <a href="#">See project on GitHub</a>
-     </div>
-     <div class="grid__item">
-       <h2>Mobile web app</h2>
-       <p>
-       </p>
-       <a href="#">See project on GitHub</a>
-     </div>
-     <div class="grid__item">
-       <h2>Mobile web app</h2>
-       <p>
-       </p>
-       <a href="#">See project on GitHub</a>
-     </div>
-     <div class="grid__item">
-       <h2>Web app</h2>
-       <p>
-       </p>
-       <a href="#">See project on GitHub</a>
-     </div>
-   </div>
-</section>
+
+<header class="page-header">
+  <a href="index.html" class="custom-cursor"><img src="img/logo.svg" width="200" height="70" alt="logo"
+      class="page-header__item"></a>
+
+  <nav class="page-header__item">
+    <ul role="menubar" class="navigation-list">
+      <li role="presentation">
+        <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+      </li>
+      <li role="presentation">
+        <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+      </li>
+      <li role="presentation">
+        <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+      </li>
+      <li role="presentation">
+        <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Projects</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<br>
+<br>
+
+<main>
+  <section>
+
+    <div class="work">
+      <h1>My Work</h1>
+    </div>
+
+    <div class="grid">
+
+      <div class="grid__item">
+        <h2>Meet (PWA)</h2>
+        <img src="img/meet.jpeg" alt="A preview picture of meet App" class="project-picture">
+        <p>
+          The goal of this project is to build a serverless, progressive web application (PWA)
+          with React using a test-driven development (TDD) technique.
+          The application uses the Google Calendar API to fetch upcoming events.
+        </p>
+        <a href="https://tommasobenedetti.github.io/meet/" target="_blank">See live version of this project</a>
+        <br>
+        <a href="https://github.com/tommasobenedetti/meet" target="_blank">See project on GitHub</a>
+      </div>
+
+      <div class="grid__item">
+        <h2>Angular App: myFlix</h2>
+        <img src="img/myFlix-Angular-client.jpeg" alt="A preview picture of myFlix Angular App" class="project-picture">
+        <p>
+          The aim of this project is to build the client-side for an application called
+          myFlix using Angular based on its existing server-side code (REST API and database)
+          with supporting documentation
+        </p>
+        <a href="https://tommasobenedetti.github.io/myFlix-Angular-client-2/" target="_blank">See live version of this
+          project</a>
+        <br>
+        <a href="https://github.com/tommasobenedetti/myFlix-Angular-client-2" target="_blank">See project on GitHub</a>
+        <br>
+      </div>
+
+      <div class="grid__item">
+        <h2>Pokedex App</h2>
+        <img src="img/pokedex-app__web.jpeg" alt="A preview picture of pokedex app" class="project-picture">
+        <p>
+          This is a small application that loads Pokémon from an external API and allows to display their details.
+        </p>
+        <a href="https://tommasobenedetti.github.io/Pokedex/" target="_blank">See live version of this project</a>
+        <br>
+        <a href="https://github.com/tommasobenedetti/Pokedex" target="_blank">See project on GitHub</a>
+      </div>
+
+      <div class="grid__item">
+        <h2>Simple To Do App</h2>
+        <img src="img/to-do-list-app.jpeg" alt="A preview picture of a simple to do list app"
+          class="project-picture-upright">
+        <p>
+          This is a small web application that allows users to add items to a to do list,
+          cross out items, delete items and sort the items on the list
+        </p>
+        <a href="https://tommasobenedetti.github.io/to-do-list-app/" target="_blank">See live version of this
+          project</a>
+        <br>
+        <a href="https://github.com/tommasobenedetti/to-do-list-app" target="_blank">See project on GitHub</a>
+      </div>
+
+      <div class="grid__item">
+        <h2>ChatApp</h2>
+        <img src="./img/ChatApp.jpeg" alt="A preview picture of Chat App" class="project-picture-upright">
+        <p>
+          The aim of this project is to build a chat app for mobile devices using React Native.
+          The app provides users with a chat interface and options to share images and their location.
+        </p>
+        <a href="https://github.com/tommasobenedetti/ChatApp" target="_blank">See project on GitHub</a>
+      </div>
+
+      <div class="grid__item">
+        <h2>Movie API</h2>
+        <p>
+          This API provides endpoints to access a database to receive information
+          about specific movies.
+        </p>
+        <a href="https://github.com/tommasobenedetti/movie_api" target="_blank">See project on GitHub</a>
+      </div>
+
+      <div class="grid__item">
+        <h2>React App: myFlix</h2>
+        <div>
+          <img src="img/myFlix-client.jpeg" alt="A preview picture of myFlix React App" class="project-picture">
+        </div>
+        <p>
+          This app is using React to build the client-side for an application called
+          myFlix based on its existing server-side code (REST API and MongoDB database).
+        </p>
+        <a href="https://tommasobenedetti.github.io/myFlix-client/" target="_blank">See live version of this project</a>
+        <br>
+        <a href="https://github.com/tommasobenedetti/myFlix-client" target="_blank">See project on GitHub</a>
+      </div>
+    </div>
+  </section>
 </main>
 <footer class="page-footer">
-    <p>Find me on</p>
-    <div class="social-media">
-      <a href="https://github.com/tommasobenedetti">
-        <img src="img/github_icon.svg" alt="github">
-      </a>
-    <img src="img/twitter_icon.svg" alt="twitter">
-    <a href="https://linkedin.com/in/tommaso-benedetti-64ab6b145">
-      <img src="img/linkedin_icon.svg" alt="linkedin">
+  <p>Find me on</p>
+  <div class="social-media">
+    <a href="https://github.com/tommasobenedetti"><img src="img/github_icon.svg" alt="Github"></a>
+    <a href="https://linkedin.com/in/tommaso-benedetti-64ab6b145"><img src="img/linkedin_icon.svg" alt="linkedin">
     </a>
   </div>
-  </footer>
-  <script src="js/tota11y.min.js"></script>
+</footer>
+
 </body>
+
 </html>
