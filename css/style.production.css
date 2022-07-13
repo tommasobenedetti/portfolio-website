@@ -116,9 +116,6 @@ a:focus {
   text-decoration: none;
 }
 
-a:visited {
-  color: var(--primary-color);
-}
 
 a:active {
   color: var(--secondary-color);
